@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="5" >
+    <link rel="apple-touch-icon" sizes="76x76" href="../static/assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../static/assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Yelpalize, How you doin?</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="../static/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/assets/css/light-bootstrap-dashboard.css?v=2.0.1" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../static/assets/css/demo.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-image="../static/assets/img/sidebar-5.jpg" data-color = "red" >
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://0.0.0.0:8000/" class="simple-text">
+                        Yelpalize
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a class="nav-link" href="http://0.0.0.0:8000/">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg " color-on-scroll="500">
+                <div class=" container-fluid  ">
+                    <a class="navbar-brand" href="#pablo">Choose Your Business </a>
+                    <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        <ul class="nav navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" data-toggle="dropdown">
+                                    <i class="nc-icon nc-palette"></i>
+                                    <span class="d-lg-none">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="dropdown nav-item">
+                                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                    <i class="nc-icon nc-planet"></i>
+                                    <span class="notification">5</span>
+                                    <span class="d-lg-none">Notification</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Notification 1</a>
+                                    <a class="dropdown-item" href="#">Notification 2</a>
+                                    <a class="dropdown-item" href="#">Notification 3</a>
+                                    <a class="dropdown-item" href="#">Notification 4</a>
+                                    <a class="dropdown-item" href="#">Another notification</a>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nc-icon nc-zoom-split"></i>
+                                    <span class="d-lg-block">&nbsp;Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pablo">
+                                    <span class="no-icon">Account</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="no-icon">Dropdown</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pablo">
+                                    <span class="no-icon">Log out</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <<div class="content">
+              <div class="container">
+                <div class="card-header">
+                  <h2>Business to view</h2>
+                  <p>Select one of the follwing business to view the CRM analysis.</p>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/--6MefnULPED_I942VcFNA" class="simple-text">
+                              John's Chinese BBQ Restaurant Richmond Hill ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/--7zmmkVg-IMGaXbuVd0SQ" class="simple-text">
+                            Primal Brewery Huntersville ,NC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/--9e1ONYQuAa-CB_Rrw7Tw" class="simple-text">
+                              Delmonico Steakhouse Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/--cjBEbXMI2obtaRHNSFrA" class="simple-text">
+                              Howl at the Moon Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/--cZ6Hhc9F7VkKXxHMVZSQ" class="simple-text">
+                            Pio Pio Charlotte ,NC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/--DaPTJW3-tB1vP-PfdTEg" class="simple-text">
+                              Sunnyside Grill Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/--FBCX-N37CMYDfs790Bnw" class="simple-text">
+                              The Bar At Bermuda & St. Rose Henderson ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/--I7YYLada0tSLkORTHb5Q" class="simple-text">
+                            Happy Moose Bar and Grill Streetsboro ,OH
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/--KQsXc-clkO7oHRqGzSzg" class="simple-text">
+                              Sam's Club Scottsdale ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/--qvQS4MigHPykD2GV0-zw" class="simple-text">
+                              Pearson Moving Chandler ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/--SrzpvFLwP_YFwB_Cetow" class="simple-text">
+                            Keung Kee Restaurant Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/--ttCFj_csKJhxnaMRNuiw" class="simple-text">
+                              Impressions Dental Chandler ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/--ujyvoQlwVoBgMYtADiLA" class="simple-text">
+                              Primanti Bros. Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-01XupAWZEXbdNbxNg5mEg" class="simple-text">
+                            18 Degrees Neighborhood Grill Scottsdale ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-050d_XIor1NpCuWkbIVaQ" class="simple-text">
+                              Matt's Big Breakfast Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-092wE7j5HZOogMLAh40zA" class="simple-text">
+                              Wong's Jr Peoria ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-0aIra_B6iALlfqAriBSYA" class="simple-text">
+                            Tea2go Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-0BxAGlIk5DJAGVkpqBXxg" class="simple-text">
+                              The Coffee Bean & Tea Leaf Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-0DET7VdEQOJVJ_v6klEug" class="simple-text">
+                              Flaming Kitchen Markham ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-0dWjxaPKrXAn8urSnkSLA" class="simple-text">
+                            Sandcastle Water Park Homestead ,PA
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-0mm8pqBSIOYZQHeo8XnkA" class="simple-text">
+                              Philthy Philly's Newmarket ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-0NrB58jqKqJfuUCDupcsw" class="simple-text">
+                              The Fry North York ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-0qht1roIqleKiQkBLDkbw" class="simple-text">
+                            Cancun Resort Las Vegas by Diamond Resorts Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-0Sgh0QlUKVsWosCWJzGqQ" class="simple-text">
+                              Domino's Pizza Tempe ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-0t6o9LXMVQ3aV8CHhRTnA" class="simple-text">
+                              AZ International Marketplace Mesa ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-0tgMGl7D9B10YjSN2ujLA" class="simple-text">
+                            Dubliner Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-0WegMt6Cy966qlDKhu6jA" class="simple-text">
+                              Game Seven Grill Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-0ZO00Vm2ADchytlEkoXmg" class="simple-text">
+                              Kidz Cuts By Lori Henderson ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-11PbySWhJQtK6USx4IP2A" class="simple-text">
+                            URBAN JUNGLE FUN PARK Mesa Mesa ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-1m9o3vGRA8IBPNvNqKLmA" class="simple-text">
+                              Bavette's Steakhouse & Bar Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-1UMR00eXtwaeh59pEiDjA" class="simple-text">
+                              Matt's Big Breakfast Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-1VaIJza42Hjev6ukacCNg" class="simple-text">
+                            Rio Mirage Cafe Y Cantina El Mirage ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-1vfRrlnNnNJ5boOVghMPA" class="simple-text">
+                              Red Ginseng Narita Sushi & BBQ Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-1xCh7Cocn6IwFzhELyohA" class="simple-text">
+                              Jose' and Tony's Mexican Restaurant Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-1xuC540Nycht_iWFeJ-dw" class="simple-text">
+                            Romados Montréal ,QC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-2hOglg7Lh8ZgclQJ9ba2w" class="simple-text">
+                              URSA Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-2pQf1ceDZyE2ReCNbj-3A" class="simple-text">
+                              Just Fresh Charlotte ,NC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-2qfXy3hcWG0GEcE8QUKQw" class="simple-text">
+                            Precision Air & Heating Chandler ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-2QGc6Lb0R027lz0DpWN1A" class="simple-text">
+                              Davis Glass and Mirror Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-2ToCaDFpTNmmg3QFzxcWg" class="simple-text">
+                              Showtime Tours Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-2X9U7v-Avoib-ki0y85bA" class="simple-text">
+                            Scottsdale Air Heating & Cooling Tempe ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-382X_bWhJKPJKP1VfXOmw" class="simple-text">
+                              Johnny Rockets West Mifflin ,PA
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-38Kck4mGlkBwd6OXayZRg" class="simple-text">
+                              Now and Zen Massage Therapy Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-3oxnPPPU3YoxO9M1I2idg" class="simple-text">
+                            Eklectic Pie - Mesa Mesa ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-3Yo-5oNDhJ3SFgCGfOyuw" class="simple-text">
+                              Indochino Custom Menswear Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-3zffZUHoY8bQjGfPSoBKQ" class="simple-text">
+                              Michael Mina Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-461KOozus5M0Px02uyRgg" class="simple-text">
+                            Tlc Wash N Clean Gilbert ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-49WY_TEa9ZEcRk_GnuLog" class="simple-text">
+                              Cracker Barrel Old Country Store Sheffield Village ,OH
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-4bPFENRdTqjML8aKEL6ow" class="simple-text">
+                              Paper Crane King City ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-4g68Hwm892_KPUuW5g1_Q" class="simple-text">
+                            Jimmy John's Tempe ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-4gwgdvSq_PqOmHb70au8Q" class="simple-text">
+                              Christian Audigier The Nightclub Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-4TMQnQJW1yd6NqGRDvAeA" class="simple-text">
+                              The House Brasserie Scottsdale ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-5iyA2TptbQB9YmowvmVyQ" class="simple-text">
+                            Tire Works Total Car Care Henderson ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-5L8zOxibac-vBrsYtxXbQ" class="simple-text">
+                              Ed's Tavern Charlotte ,NC
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-5NXoZeGBdx3Bdk70tuyCw" class="simple-text">
+                              Po' Boys Restaurant Urbana ,IL
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-5XuRAfrjEiMN77J4gMQZQ" class="simple-text">
+                            Berrybrook Farm Natural Foods Charlotte ,NC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-5__awbuGMHAk6cZgJEgLQ" class="simple-text">
+                              LensCrafters Henderson ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-63pZrN9eEFoi-avMMx6Ug" class="simple-text">
+                              London Pub Company Richmond Hill ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-6GJMc_Ln7csmvWWvY2iug" class="simple-text">
+                            The Fox and Firkin Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-6h3K1hj0d4DRcZNUtHDuw" class="simple-text">
+                              Brio Tuscan Grille Scottsdale ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-6tvduBzjLI1ISfs3F_qTg" class="simple-text">
+                              Joyride Taco House Gilbert ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-6U5r96gk6gQJLgipOn1ug" class="simple-text">
+                            Toyota of Surprise Surprise ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-76didnxGiiMO80BjSpYsQ" class="simple-text">
+                              Green Beanery Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-7BCZH437U5FjmNJ26llkg" class="simple-text">
+                              Mr Pide Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-7d3UqQYYcBxbDH2do86sg" class="simple-text">
+                            Noodles & Company Peoria ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-7EwIdxcRC5McO35DVfeSQ" class="simple-text">
+                              Xin Jiang Restaurant Markham ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-7H-oXvCxJzuT42ky6Db0g" class="simple-text">
+                              Industry Public House Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-7HB0UjguXW8csOH9svG4Q" class="simple-text">
+                            Sonic Drive-In Mesa ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-7PX_FOoCwktlunImRyZdg" class="simple-text">
+                              Pizza Taglio Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-7XWJYkutqhIxLen7Grg1g" class="simple-text">
+                              Prince Sushi Mississauga ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-865Ps6xb3h1LP67JcQ3mA" class="simple-text">
+                            Rainbow Garden Urbana ,IL
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-86hc_y6sbXNnSGqlaHmhQ" class="simple-text">
+                              Level at Sixteenth by Mark-Taylor Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-8F04F54iDT6VgWPCgybug" class="simple-text">
+                              Ineffable Ca Phe Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-8iIgtOaGx64pD8Uqj5DOQ" class="simple-text">
+                            Be Fabulous Lash & Laser Clinic Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-8ILwSisSrTzcyy_Z0o9oA" class="simple-text">
+                              Pizza Cono Pittsburgh ,PA
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-8iwcXhLnyqbLgvcrJGgaw" class="simple-text">
+                              Red Rocks Cafe Huntersville ,NC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-8JaNeG3etLgOVyg2gOIiA" class="simple-text">
+                            La Fontanella Restaurant Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-8jeDY-TJ_e6w7h0c--A-w" class="simple-text">
+                              Chingu Korean BBQ Richmond Hill ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-8lx51-dbVuf0gXWSUqvdA" class="simple-text">
+                              Community Pharmacy Madison ,WI
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-8O4kt8AIRhM3OUxt-pWLg" class="simple-text">
+                            Warrior Wraps Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-8O8sVCnaIKHP-596zN9UA" class="simple-text">
+                              Blue Canyon Kitchen & Tavern Twinsburg ,OH
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-8Oaw94x2pYJCVP8ZtuTTw" class="simple-text">
+                              Carrabba's Italian Grill Matthews ,NC
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-8QlV3b_9H4BAh6LgMIr1g" class="simple-text">
+                            Nandini Indian Cuisine Tempe ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-8R_-EkGpUhBk55K9Dd4mg" class="simple-text">
+                              Sin City Thai Restaurant Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-8wrG6WiLkSRS1JgE7jD0Q" class="simple-text">
+                              Colby Cruiser Gilbert ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-8ZiMXZReeTD3kwEvS0Lww" class="simple-text">
+                            The Butcher Block Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-92cC6-X87HQ1DE1UHOx3w" class="simple-text">
+                              Junior Montréal ,QC
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-95mbLJsa0CxXhpaNL4LvA" class="simple-text">
+                              The Perfect Scoop & Boba Tea Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-9A-46iJjMrKslecqdQaMg" class="simple-text">
+                            Bear Arms Firearms Paradise Valley ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-9dmhyBvepc08KPEHlEM0w" class="simple-text">
+                              CN Tower Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-9eNGMp8XiygI8t8QFuFWw" class="simple-text">
+                              The Melting Pot - Phoenix Phoenix ,AZ
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-9Ir5OiFiOszIgeFgalXcw" class="simple-text">
+                            Starbucks Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-9nai28tnoylwViuJVrYEQ" class="simple-text">
+                              Tapas Papa Frita Scottsdale ,AZ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-9u2uFwhlj3Yq4mG5IweoA" class="simple-text">
+                              Hawker Bar Toronto ,ON
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-9yG5SmYxH8BLg4bML8VQg" class="simple-text">
+                            A-OK Coffee Madison ,WI
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-9yq6bVqOn6Uywl9KhRToA" class="simple-text">
+                              Plumbing Kings Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="round">
+                          <a href="http://0.0.0.0:8000/yelp/-9YyInW1wapzdNZrhQJ9dg" class="simple-text">
+                              Fresh Buffet Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="round">
+                         <a href="http://0.0.0.0:8000/yelp/-A5jntJgFglQ6zwAmOiOMw" class="simple-text">
+                            Baymont Inn And Suites Las Vegas Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="round">
+                        <a href="http://0.0.0.0:8000/yelp/-a857YYdjzgOdOjFFRsRXQ" class="simple-text">
+                              Beer Park Las Vegas ,NV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <nav>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Company
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-center">
+                            ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>
+                            <a href="http://www.linkedin.com/in/ds-blitz">Alex Blitstein</a> Blitz your data!
+                        </p>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--   -->
+    <!-- <div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+        <a href="#" data-toggle="dropdown">
+            <i class="fa fa-cog fa-2x"> </i>
+        </a>
+
+        <ul class="dropdown-menu">
+			<li class="header-title"> Sidebar Style</li>
+            <li class="adjustments-line">
+                <a href="javascript:void(0)" class="switch-trigger">
+                    <p>Background Image</p>
+                    <label class="switch">
+                        <input type="checkbox" data-toggle="switch" checked="" data-on-color="primary" data-off-color="primary"><span class="toggle"></span>
+                    </label>
+                    <div class="clearfix"></div>
+                </a>
+            </li>
+            <li class="adjustments-line">
+                <a href="javascript:void(0)" class="switch-trigger background-color">
+                    <p>Filters</p>
+                    <div class="pull-right">
+                        <span class="badge filter badge-black" data-color="black"></span>
+                        <span class="badge filter badge-azure" data-color="azure"></span>
+                        <span class="badge filter badge-green" data-color="green"></span>
+                        <span class="badge filter badge-orange" data-color="orange"></span>
+                        <span class="badge filter badge-red" data-color="red"></span>
+                        <span class="badge filter badge-purple active" data-color="purple"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+            </li>
+            <li class="header-title">Sidebar Images</li>
+
+            <li class="active">
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="../static/assets/img/sidebar-1.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="../static/assets/img/sidebar-3.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="..//static/assets/img/sidebar-4.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a class="img-holder switch-trigger" href="javascript:void(0)">
+                    <img src="../static/assets/img/sidebar-5.jpg" alt="" />
+                </a>
+            </li>
+
+            <li class="button-container">
+                <div class="">
+                    <a href="http://www.creative-tim.com/product/light-bootstrap-dashboard" target="_blank" class="btn btn-info btn-block btn-fill">Download, it's free!</a>
+                </div>
+            </li>
+
+            <li class="header-title pro-title text-center">Want more components?</li>
+
+            <li class="button-container">
+                <div class="">
+                    <a href="http://www.creative-tim.com/product/light-bootstrap-dashboard-pro" target="_blank" class="btn btn-warning btn-block btn-fill">Get The PRO Version!</a>
+                </div>
+            </li>
+
+            <li class="header-title" id="sharrreTitle">Thank you for sharing!</li>
+
+            <li class="button-container">
+				<button id="twitter" class="btn btn-social btn-outline btn-twitter btn-round sharrre"><i class="fa fa-twitter"></i> · 256</button>
+                <button id="facebook" class="btn btn-social btn-outline btn-facebook btn-round sharrre"><i class="fa fa-facebook-square"></i> · 426</button>
+            </li>
+        </ul>
+    </div>
+</div>
+ -->
+</body>
+<!--   Core JS Files   -->
+<script src="../static/assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../static/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../static/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="../static/assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!--  Chartist Plugin  -->
+<script src="../static/assets/js/plugins/chartist.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="../static/assets/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+<script src="../static/assets/js/light-bootstrap-dashboard.js?v=2.0.1" type="text/javascript"></script>
+<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+<script src="../static/assets/js/demo.js"></script>
+
+</html>
